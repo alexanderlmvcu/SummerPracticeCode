@@ -1,0 +1,23 @@
+<html>
+<head>
+
+<style>
+div {
+background-color: red !Important;
+}
+</style>
+<script>
+alert('Hello World');
+</script>
+
+</head>
+<body>
+
+<p id="MyP"></p>
+
+<script>
+	document.getelementbyid("MyP").innerHTML = "Magic floating text";
+</script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+<XMLrandtest>
+	<Attribute Type ="LiveCodingInFrontOfPeople">
+	<Attribute Type ="SmallKeyboards">
+	<Attribute Type ="MousePads">
+</XMLrandtest>

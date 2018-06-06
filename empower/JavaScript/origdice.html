@@ -1,0 +1,46 @@
+<html>
+
+<head>
+   <script>
+       
+       //For my poker game.
+       function rollTheDice()
+       {  
+           var intDiceRoll = Math.floor(Math.random() * 6) + 1;
+
+            if(intDiceRoll == 1)
+            {
+               document.getElementById('imgDice').src = "1.jpg";
+            }
+            if(intDiceRoll == 2)
+            {
+               document.getElementById('imgDice').src = "2.jpg";
+            }
+            if(intDiceRoll == 3)
+            {
+               document.getElementById('imgDice').src = "3.jpg";
+            }
+            if(intDiceRoll == 4)
+            {
+               document.getElementById('imgDice').src = "4.jpg";
+            }
+            if(intDiceRoll == 5)
+            {
+               document.getElementById('imgDice').src = "5.jpg";
+            }
+            if(intDiceRoll == 6)
+            {
+               document.getElementById('imgDice').src = "6.jpg";
+            }
+           return intDiceRoll;
+       }
+       
+   </script>
+</head>
+<body>
+<input type="button"
+   onclick="rollTheDice();"
+   value="Roll the Dice"/>
+<img src="" id="imgDice"/>
+</body>
+</html>
