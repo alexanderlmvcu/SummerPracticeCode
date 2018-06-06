@@ -1,1 +1,4 @@
-// this folder was used to create an edit of the Sublime color scheme using online palette references as well as previous Sublime Examples like Azure and Monokai. sunset was an initial failed attempt to change Azure after realizing Azure had more that I did not like that what I liked, hence the change to Monokai, resulting in the final file SunsetDusk
+// this folder was used to create an edit of the Sublime color scheme using online palette references
+as well as previous Sublime Examples like Azure and Monokai. sunset was an initial failed attempt
+to change Azure after realizing Azure had more that I did not like that what I liked, 
+hence the change to Monokai, resulting in the final file SunsetDusk
