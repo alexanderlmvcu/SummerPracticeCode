@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TGIF, v3!</title>
+  <script src='js/jquery-3.3.1.min.js' type='text/javascript'>
+     	$(document).ready(function () {	
+var BLOCKS_PER_CHART = 10;
+
+function generateChart(chartContainer) {
+  var container = $("<div>").addClass("container2").appendTo(chartContainer);
+  var text = "Hello World!";
+  var blockDiv;  // used in the for loop
+
+  for(var i = 0; i < BLOCKS_PER_CHART; i++) {
+    blockDiv = $("<div>").addClass("block").appendTo(container);
+    $('<span>').text(text).appendTo(blockDiv);
+    $('<span>').append(i);
+  }
+}
+});
+   </script>
+</head>
+<body>
+  <span id='s1'></span>
+</body>
+</html>

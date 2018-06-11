@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TGIF, v3!</title>
+  <script src='js/jquery-3.3.1.min.js' type='text/javascript'> </script>
+     <script type='text/javascript'>
+     	$(document).ready(function () {
+   		 for(var i=1; i<5; i++) {
+      //console.log(i); // this allows you to run and debug
+      	var lastSpanValue = $('span#s1').html();
+      	var newSpanValue = lastSpanValue + i;
+    	$('#s1').html(newSpanValue);
+    	// $('#s1').html (
+    	// 		$('span#s1').html() + i
+    	// ); or as $('#s1').html ($('span#s1').html() + i);
+    	$('#s1').append(i); //^^this works best for the simplicity
+    	//use a for loop to generate rate divs with their number iteration in it, append the divs to the page, one per div with a random color
+		 }
+	});
+   </script>
+</head>
+<body>
+  <span id='s1'></span>
+</body>
+</html>

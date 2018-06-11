@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>JQuery Play</title>
+	<script src='js/jquery-3.3.1.min.js' type='text/javascript'> </script>
+	<script type='text/javascript'>
+		$(document).ready(function() {
+			// var currentValue = $('#.first-name').html('Agent');
+			// console.log(currentValue);
+			// var secondValue = $('#.last-name').html('Foxtrot');
+			// console.log(secondValue);
+			$('#our-table tbody tr:even td')
+				.css({
+					'background-color': 'red',
+					'color' : 'blue',
+					'font-style': 'italic',
+					'font-weight': 'bold'
+				});
+		});
+	</script>
+	<style type='text/css'>
+	table#our-table {
+		background-color: black;
+		color: white;
+		width: 80%;
+	}
+	</style>
+</head>
+<body>
+	<table id="our-table">
+		<thead>
+			<tr>
+				<th>
+					First name
+				</th>
+				<th>
+					Last name
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class='last-name'>
+					Alexander
+				</td>
+			</tr>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class='last-name'>
+					Alexander
+				</td>
+			</tr>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class = 'last-name'>
+					Alexander
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html>
+<head>
+<script>
+$(document).ready(function() {
+	$('#mybutton').click(function() {
+	//getting values
+	var firstname = $('#firstname').val();
+
+// setting html
+	$('div#showdata').html(firstname);
+
+	});
+});
+<input type = 'text' id='firstname'>
+<button id='mybutton'>show me </button>
+
+<div id= 'showdata'> </div>
+
+</script>
+</head>
+</html>

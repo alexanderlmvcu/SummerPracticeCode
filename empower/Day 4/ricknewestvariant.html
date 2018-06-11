@@ -1,0 +1,100 @@
+<html>
+<script>
+
+    function ProcessRick()
+    {
+        var sFirstName = document.getElementById('txtFirstName').value;
+        var sLastName = document.getElementById('txtLastName').value;
+        var nRickMoney = document.getElementById('txtAmountGiveRick').value;
+        var oLevelOfRickLove = document.getElementById('LevelOfRickLove').value;
+        alert(oLevelOfRickLove);
+        //These are all my accounts, STEAL MY MONEY!!!!!!
+        var ricksBankAccounts = ['123456','100090657','10000057894'];
+        //Build the Rick object to send to the bank processing object
+        var RickIsTheMan = {
+            firstName : sFirstName,
+            lastName : sLastName,
+            ricksMoney : nRickMoney,
+            rickLoveLevel : oLevelOfRickLove
+        };
+        //Call my Square function and pass the object and array
+        myBlackBox(RickIsTheMan, ricksBankAccounts);
+    }
+    //This is my black box and while its closed it is calling Sqaure
+    function myBlackBox(PickleRick, visaAccounts)
+    {
+        //Lets gauge the leve of love for Rick
+        switch(PickleRick.rickLoveLevel)
+        {
+            case  "ALot":
+                alert('Gold Member');
+                break;
+            case  "AnInappropriateLevel":
+                alert('Platinum Member');
+                break;
+            case  "NDA":
+                alert('Double Secret Probation');
+                SendThisGuyAWarningEmail();
+                break;
+        }
+        
+        //Look through the bank accounts for the Bank of America account with 6 characters
+        for (i = 0; i < visaAccounts.length; i++)
+        {
+            //ricksBankAccounts = ['123456','100090657','10000057894'];
+            var nAccount = visaAccounts[i];
+            
+            if(nAccount.length == 6 && PickleRick.rickLoveLevel == "ALot")
+            {                
+                //Get my money from Bank of America
+                alert(nAccount + ' is only this many characters so send to Square: ' + nAccount.length);
+                break;
+            }
+        }        
+    }
+
+function SendThisGuyAWarningEmail()
+    {
+        alert('Send email to lawyer');    
+    }
+</script>
+<body>
+<table>
+<tr><td>
+Your First Name
+</td><td>
+<input type="text" id="txtFirstName">
+</td></tr>
+<tr><td>
+Your Last Name
+</td><td>
+<input type="text" id="txtLastName">
+</td></tr>
+<tr><td>
+Rick's Money
+</td><td>
+<input type="text" id="txtAmountGiveRick">
+</td></tr>
+
+<tr><td>
+Do You Love Rick?
+</td><td>
+<input type="checkbox" id="txtDoYouLoveRick">
+</td></tr>
+
+<tr><td>
+What is your level of love?
+</td><td>
+<select id="LevelOfRickLove">
+    <option value="ALot">A LOT</option>
+    <option value="AnInappropriateLevel">AnInappropriateLevel</option>
+    <option value="NDA">I can't talk about that due to an NDA</option>
+</select>
+</td></tr>
+
+</table>
+
+<button type="button" onclick="ProcessRick()">Send Rick Some Money</button>
+
+</body>
+</html>

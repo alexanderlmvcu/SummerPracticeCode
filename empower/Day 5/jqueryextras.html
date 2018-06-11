@@ -1,0 +1,44 @@
+<html>
+<script type='text/javascript'>
+	$(document).ready(function(){
+		initializePage(); // this is put all the way at the bottom of the page, one of the very few js things in your html aside from references to other sheets
+	})
+
+	//elsewhere in a different file
+	function initializePage(){
+
+	}
+	//is equivalent to
+	var showMe = function() {
+		$('.hideme').fadeIn(2000); //can use .show() or .hide() for instant
+	};
+
+	function hideMe() {
+		$('.hideme').fadeOut(2000);
+	};
+
+	var shrinkMe = function() {
+		$(".hideme").animate({
+			opacity: 0.25,
+			left: "+=50",
+			height: "toggle" // this was then made into a single function for shrink/growMe into toggleShrink with different opacity inputs passed in
+		}, 5000, function() {
+			// do stuff then the animation is complete
+		});
+	};
+var initializePage = function() {
+		//alert('hello')
+		$('#hide-me').click(function(){
+			hideMe(); //keep your event handlers very clean, and reference to more complicated functions elsewhere
+		});
+		$('#show-me').click(function(){
+			showMe();
+		});
+		$(#'shrink-me').click(function (){
+			shrinkMe(); //became toggleShrink(*final opacity #*)
+		}
+	};
+</script>
+<div class='container'>
+	<button 
+</html>

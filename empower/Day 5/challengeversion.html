@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TGIF, v3!</title>
+<style>
+div {
+	border-radius: 20%;
+	background-color: colorChange;
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+	margin: 20px;
+	float: left;
+}
+</style>
+  <script src='js/jquery-3.3.1.min.js' type='text/javascript'> </script>
+     <script type='text/javascript'>
+     	$(document).ready(function () {	
+     		for(var i=1; i<8; i++) {
+     		var container = document.createElement("div");
+     		var letters = '0123456789ABCDEF';
+		    var colorChange = '#';
+		     var container = $('<div style="div">').appendTo('#s1');
+			 var text = i;
+		     var blockDiv;
+	   		 
+	    		//$('#s1').append(i);
+	    		 blockDiv = $("<span>").addClass("block").appendTo(container);
+				 $('<span>').text(text).appendTo(blockDiv);
+				  colorChange += letters[Math.floor(Math.random() * 16)];
+		     }
+			return colorChange;
+		 });
+   </script>
+</head>
+<body>
+  <span id='s1'></span>
+  <div style= 'background-color: red'>Enter here</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+<script>
+
+function ProcessRick()
+{
+	var sFirstName = document.getElementById('txtFirstName').value;
+	var sLastName = document.getElementById('txtLastName').value;
+	var sRickMoney = document.getElementById('txtAmountGiveRick').value;
+	
+	var RickIsTheMan = {
+		firstName : sFirstName,
+		lastName : sLastName,
+		ricksMoney : sRickMoney
+	};
+	putRickInTheDatabase(RickIsTheMan);
+}
+function putRickInTheDatabase(PickRick) 
+{
+	alert(PickRick.firstName);
+	alert(PickRick.lastName);
+	alert(PickRick.ricksMoney);
+}
+</script>
+<body>
+<table>
+<tr><td>
+Your First Name
+</td><td>
+<input type="text" id="txtFirstName">
+</td></tr>
+<tr><td>
+Your Last Name
+</td><td>
+<input type="text" id="txtLastName">
+</td></tr>
+<tr><td>
+Rick's Money
+</td><td>
+<input type="text" id="txtAmountGiveRick">
+</td></tr>
+<tr><td>
+Do You Love Rick?
+</td><td>
+<input type="checkbox" id="txtDoYouLoveRick">
+</td></tr>
+</table>
+
+<button type="button" onclick="ProcessRick()">Send Rick Some Money</button>
+
+</body>
+</html>

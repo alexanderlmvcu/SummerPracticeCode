@@ -1,0 +1,101 @@
+<html>
+<script>
+
+function ProcessRick()
+{
+	var sFirstName = document.getElementById('txtFirstName').value;
+	var sLastName = document.getElementById('txtLastName').value;
+	var nRickMoney = document.getElementById('txtAmountGiveRick').value;
+	var LevelOfRickLove = document.getElementById('LevelOfRickLove'.value);
+	alert(LevelOfRickLove);
+	//these are all the accounts, real life would want to encrypt
+	var ricksBankAccounts = ['123456', '1000090657', '1000057894'];
+	//Build the rick object to send to the bank processing objects
+	var RickIsTheMan = {
+		firstName : sFirstName,
+		lastName : sLastName,
+		ricksMoney : nRickMoney,
+		rickLoveLevel: LevelOfRickLove
+		//RickIsTheMan could have an o in front of it in both locations to denote its status as an object
+	};
+	// call my black box and get my money //call my square function and pass the object with allll the variables tucked inside and the array
+	myBlackBox(RickIsTheMan, ricksBankAccounts);
+}
+// this is my black box and while its closed it is calling Square
+function myBlackBox(PickRick, visaAccounts) //could call them as pvo as pass value objects 
+{
+	//sort of the business rules
+	alert(PickRick.firstName); // this checks the first name
+	alert(PickRick.lastName); //this checks the last name
+	alert(PickRick.ricksMoney); //this checks the money
+
+	//TODO; Add business rule for money
+	switch(PickRick.rickLoveLevel) 
+	{
+		case "A Lot": 
+			alert('Gold Member');
+			break;
+		case "Hella Lot": 
+			alert('Platinum Member');
+			break;
+		case "2 Much": 
+			alert('Double Secret Probabtion');
+			//SendThisGuyAWarningEmail();
+			break;
+	}
+	//look through the bank accounts at the Bank with 6 characs
+
+	for(i= 0; i < visaAccounts.length; i++)
+	{
+		var nAccount = visaAccounts[i];
+		
+		if(nAccount.length == 6 && PickRick.rickLoveLevel == "A Lot")
+		{
+			// Get my money from Bank
+			alert(nAccount + ' is only so many characters for Square :' + nAccount.length);
+			break;
+		}
+	}
+}
+
+//function SendThisGuyAWarningEmail()	
+</script>
+<body>
+<table>
+<tr><td>
+Your First Name
+</td><td>
+<input type="text" id="txtFirstName">
+</td></tr>
+<tr><td>
+Your Last Name
+</td><td>
+<input type="text" id="txtLastName">
+</td></tr>
+<tr><td>
+Rick's Money
+</td><td>
+<input type="text" id="txtAmountGiveRick">
+</td></tr>
+<tr><td>
+Do You Love Rick?
+</td><td>
+<input type="checkbox" id="txtDoYouLoveRick">
+</td></tr>
+
+<tr><td>
+What is your level of love?
+</td><td>
+<select id="LevelOfRickLove">
+	<option value="A Lot">A Lot</option>
+	<option value="Hella Lot">Hella Lot</option>
+	<option value="2 Much">2 Much</option>
+</select>
+</td></tr>
+
+</table>
+
+<button type="button" onclick="ProcessRick()">Send Rick Some Money</button>
+
+</body>
+</html>

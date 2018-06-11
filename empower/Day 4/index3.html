@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>JQuery Play</title>
+	<script src='js/jquery-3.3.1.min.js' type='text/javascript'> </script>
+	<script type='text/javascript'>
+		$(document).ready(function() {
+			$('#add-to-table').click(function () {
+			var firstname = $('#firstname').val();
+			$('div#showdata').html(firstname);;
+			//alert(firstName + ' ' + lastName);
+			});
+			// var currentValue = $('.first-name:first').html();
+			// $('.first-name:first').html(currentValue + 'Marie');
+			// console.log(currentValue);
+			// var secondValue = $('#.last-name').html('Foxtrot');
+			// console.log(secondValue);
+			// $('#our-table tbody tr:even td')
+			// 	.css('background-color', 'red')
+				// .css('color', 'blue')
+				// .click(function() {
+				// 	alert('clicked an odd row');
+				// 	//used to show easier on click than javascript
+				// });
+		});
+	</script>
+	<style type='text/css'>
+	table#our-table {
+		background-color: black;
+		color: white;
+		width: 80%;
+	}
+	</style>
+</head>
+<body>
+	<!--
+		this is the input stuff at the top of the page
+	-->
+	<input type='text' id='first-name-text'>
+	<input type='text' id='last-name-text'>
+	<button id="add-to-table">Add Name</button>
+	<input type = 'text' id='firstname'>
+	<button id='mybutton'>show me </button>
+	<div id="output-check">
+			Output goes here
+	 </div>
+	<table id="our-table">
+		<thead>
+			<tr>
+				<th>
+					First name
+				</th>
+				<th>
+					Last name
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class='last-name'>
+					Alexander
+				</td>
+			</tr>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class='last-name'>
+					Alexander
+				</td>
+			</tr>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class = 'last-name'>
+					Alexander
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

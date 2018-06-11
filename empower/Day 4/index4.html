@@ -1,0 +1,74 @@
+<html>
+<head>
+	<title>JQuery Play</title>
+	<script src='js/jquery-3.3.1.min.js' type='text/javascript'> </script>
+	<script type='text/javascript'>
+		$(document).ready(function() {
+			$('#add-to-table').click(function () {
+				var firstName = $('#first-name-text').val();
+				var lastName = $('#last-name-text').val();
+				var newRowHTML = '<tr><td>'+ firstName +'</td><td>' + lastName + '</td></tr>';
+				$('table#our-table tbody').append(newRowHTML);
+				$('#first-name-text').val('');
+				$('#last-name-text').val('');
+			});
+		});
+	</script>
+	<style type='text/css'>
+	table#our-table {
+		background-color: black;
+		color: white;
+		width: 80%;
+	}
+	</style>
+</head>
+<body>
+	<!--
+		this is the input stuff at the top of the page
+	-->
+	<input type='text' id='first-name-text' placeholder="First Name">
+	<input type='text' id='last-name-text' placeholder="Last Name">
+	<button id="add-to-table">Add Name</button>
+	<div id="output-check">
+			Output goes here
+	 </div>
+	<table id="our-table">
+		<thead>
+			<tr>
+				<th>
+					First name
+				</th>
+				<th>
+					Last name
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class='last-name'>
+					Alexander
+				</td>
+			</tr>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class='last-name'>
+					Alexander
+				</td>
+			</tr>
+			<tr>
+				<td class='first-name'>
+					Linda
+				</td>
+				<td class = 'last-name'>
+					Alexander
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
