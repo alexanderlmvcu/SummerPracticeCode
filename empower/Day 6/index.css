@@ -1,0 +1,18 @@
+body {
+	background-color: #000000;
+	color: white;
+}
+table#standings td, table#standings th {
+	border:solid 1 px yellow;
+}
+table#standings tbody td{
+	background-color: #707070 
+}
+
+table {
+	width: 90%;
+}
+
+a img {
+	text-decoration: none;
+}
