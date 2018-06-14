@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en' dir=ltr>
+	<head>
+		<meta charset = "utf-8">
+		<title> Ajax </title>
+		<link rel= "stylesheet" type= "text/css" src="styles.css">
+		<script src='js/jquery-3.3.1.min.js' type='text/javascript'> </script>
+		<script src = 'main2.js'></script>
+		<script type= 'text/javascript'>
+			$(document).ready(function () {
+				bindClickevent();
+			});
+		</script>
+	</head>	
+	<body>
+		<div style = 'float:left;'> 
+		<button id='show-options' type='button' name='button'>options</button>
+		<button id='show-tally' type='button' name='button'>tally</button>
+		<button id='show-vote' type='button' name='button'>Show your vote</button>
+		<input type='text' id='api-name' placeholder="add api">
+		<button id='do-vote' type='button' name='button'>vote</button>
+		<button id='reset-vote' type='button' name='button'>Reset vote</button>
+		</div>
+		<div id='options-container'></div>
+<!-- 		<script type='text/javascript'>
+			$(document).ready(function () {
+				bindClickEvent();
+			});
+		</script> -->
+		
+		<div id='tally-container'></div>
+
+
+
+
+	</body>	
+</html>

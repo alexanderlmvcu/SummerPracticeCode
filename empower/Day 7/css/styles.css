@@ -1,0 +1,22 @@
+.style1 {
+	background-color: x;
+	width: x;
+    text-align: x;
+    color:  x;
+    float: x;
+    font-size: x;
+    border-radius: 50%;/*could also be in px or %*/
+    margin: 0 0 0 100px; /* top right bottom left */
+    padding:100px 30px 100px 30px;
+}
+
+body {
+
+}
+
+h1 {
+	
+}
+p {
+
+}

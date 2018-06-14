@@ -1,0 +1,1542 @@
+<!-- parse to find the  part just to display the widget without having to pay 15 a month -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Customize Instagram Hashtag Feed</title>
+
+	<link rel="icon" href="https://www.sociablekit.com/app/images/sociablekit-favicon.png" type="image/png" />
+
+	<!-- jquery ui theme -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/black-tie/jquery-ui.css" />
+
+    <!-- bootstrap css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- font awesome css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+
+	<!-- color picker css -->
+	<link rel="stylesheet" href="https://www.sociablekit.com/app/libs/js/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" />
+
+	<!-- vertical tabs css -->
+	<link rel="stylesheet" href="https://www.sociablekit.com/app/libs/css/bootstrap-vertical-tabs-master/bootstrap.vertical-tabs.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="https://www.sociablekit.com/app/libs/css/custom.css?v=v3.0.0" />
+</head>
+<body>
+
+<!-- navbar -->
+<div class="navbar navbar-default navbar-static-top m0" role="navigation">
+	<div class="container-fluid">
+
+		<div class="navbar-header">
+			<!-- to enable navigation dropdown when viewed in mobile device -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<!-- Change "Your Site" to your site name -->
+			<a class="navbar-brand" href="https://www.sociablekit.com/app/" style="margin:0; padding:0;">
+								<img src="https://www.sociablekit.com/app/images/sociable-kit-logo-white.png" class="nav_bar_logo" />
+			</a>
+		</div>
+
+		<div class="navbar-collapse collapse">
+
+			<ul class='nav navbar-nav'><li class='active'><a href='https://www.sociablekit.com/app/'><i class='fa fa-list-alt'></i> SOLUTIONS</a></li><li><a href='https://www.sociablekit.com/app/support'><i class='fa fa-life-ring'></i> SUPPORT</a></li></ul><ul class='nav navbar-nav navbar-right'><li>
+								<a href='https://www.sociablekit.com/pricing/'>
+									<i class='fa fa-shopping-cart' aria-hidden='true'></i> UPGRADE NOW
+								</a>
+							</li><li><a href='https://www.sociablekit.com/app/change_password'>
+									<i class='fa fa-lock' aria-hidden='true'></i> CHANGE PASSWORD
+								</a>
+							</li><li class='dropdown'><a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'><span class='glyphicon glyphicon-user' aria-hidden='true'></span>   LILLY <span class='caret'></span></a><ul class='dropdown-menu'><li><a href='https://www.sociablekit.com/app/account'>Account</a></li><li><a href='https://www.sociablekit.com/app/logout'>Logout</a></li></ul></li></ul>
+		</div><!--/.nav-collapse -->
+
+	</div>
+</div>
+<!-- /navbar -->
+
+<div class="container-fluid settings-container">
+<div class='row'><div class='col-md-12'><h1 class='sk_h1_title'>Customize Instagram Hashtag Feed<small class='pull-right lh30px'>
+						We only have 1-day demo for Instagram hashtag feed to prevent abuse.
+					</small></h1></div></div><div class='row'><div class='col-md-4'><div class='sk_customizer'><div class='col-xs-5 pleft0 pr3px'> <!-- required for floating --><!-- Nav tabs --><ul class='nav nav-tabs tabs-left'><!-- 'tabs-right' for right tabs --><li class='active'><a href='#basic' data-toggle='tab'>Basic</a></li><li><a href='#themes' data-toggle='tab'>Themes</a></li><li><a href='#posts' data-toggle='tab'>Posts</a></li><li><a href='#colors' data-toggle='tab'>Colors</a></li><li><a href='#fonts' data-toggle='tab'>Fonts</a></li><li><a href='#texts' data-toggle='tab'>Texts</a></li><li><a href='#buttons' data-toggle='tab'>Buttons</a></li></ul></div><div class='col-xs-7'><form action='/app/update_embed.php?id=10792' method='post' enctype='multipart/form-data' id='custom-event-form' autocomplete='off'><!-- Tab panes --><div class='tab-content'><div class='tab-pane active' id='basic'>
+
+    <!-- domain -->
+    <div class="input-group" data-toggle="tooltip" title="Easily identify your custom feed by entering a unique custom feed name." data-placement="right">
+        <label for="name">Name</label>
+        <div class="input-group" id="name">
+            <input type="text" name="name" value="Insta Feed" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- domain -->
+    <div class="input-group" data-toggle="tooltip" title="Specify the website URL where you will use the plugin." data-placement="right">
+        <label for="domain">Domain</label>
+        <div class="input-group" id="domain">
+            <input type="text" name="domain" value="yourwebsite.com" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- tag -->
+    <div class="input-group" data-toggle="tooltip" title="Enter tag without # (for example: ninja)" data-placement="right">
+        <label for="instagram_tag">Instagram Tag</label>
+        <div class="input-group" id="instagram_tag">
+            <input type="text" id="instagram_tag" value="starlightandsteel" name="instagram_tag" class="form-control" />
+        </div>
+    </div>
+
+    <!-- iframe_width_100 -->
+    <div class="input-group" data-toggle="tooltip" title="Use this option only if you will use the 'iFrame' embed code." data-placement="right">
+        <label>
+                        <input type="checkbox" name="iframe_width_100" id="iframe-width-100" value="1" checked autocomplete="off" /> Full Width?
+        </label>
+    </div>
+
+        <!-- iframe_width, 0 means 100% -->
+    <div class="input-group" data-toggle="tooltip" title="Use this option only if you will use the 'iFrame' embed code." data-placement="right" id="iframe-width-input-group" style='display:none;'>
+        <label for="iframe_width">Width</label>
+        <div class="input-group" id="iframe_width">
+            <input type="text" name="iframe_width" id="iframe-width" value="100%" class="form-control" required placeholder="The pixel width of the embed (Max 1140)" />
+        </div>
+    </div>
+
+    <!-- iframe_height -->
+    <div class="input-group" data-toggle="tooltip" title="Use this option only if you will use the 'iFrame' embed code." data-placement="right">
+        <label for="iframe_height">Height</label>
+        <div class="input-group" id="iframe_height">
+            <input type="number" name="iframe_height" value="1000" class="form-control" id="iframe_height" required />
+        </div>
+    </div>
+
+</div>
+<div class='tab-pane' id='themes'>
+    <!-- theme -->
+<div class="input-group">
+        <label for="theme">Select Color Theme</label>
+    <select name="theme" class="form-control" id="theme">
+        <option value="0">Select theme...</option>
+        <option value="Maaliwalas Theme" selected>Maaliwalas Theme</option>
+        <option value="Maayos Theme" >Maayos Theme</option>
+        <option value="Maagap Theme" >Maagap Theme</option>
+        <option value="Maganda Theme" >Maganda Theme</option>
+        <option value="Masikap Theme" >Masikap Theme</option>
+        <option value="Matino Theme" >Matino Theme</option>
+        <option value="Matalino Theme" >Matalino Theme</option>
+        <option value="Maamo Theme" >Maamo Theme</option>
+        <option value="Mabait Theme" >Mabait Theme</option>
+        <option value="Mabunga Theme" >Mabunga Theme</option>
+    </select>
+</div>
+
+<div class="input-group" id="theme-display">
+    <div class='theme-item-colors' id='maaliwalas-theme-item'><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#555555;'></div><div class='theme-color' style='background-color:#3480dc;'></div><div class='theme-color' style='background-color:#a2bec4;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#435b77;'></div><div class='theme-color' style='background-color:#3480dc'></div></div><div class='theme-item-colors display-none' id='maayos-theme-item'><div class='theme-color' style='background-color:#1c1c27;'></div><div class='theme-color' style='background-color:#f1f1f1;'></div><div class='theme-color' style='background-color:#ac8d68;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#a08854;'></div><div class='theme-color' style='background-color:#000000'></div></div><div class='theme-item-colors display-none' id='maagap-theme-item'><div class='theme-color' style='background-color:#cb7c48;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#efcfb3;'></div><div class='theme-color' style='background-color:#52eded;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#fceadd;'></div><div class='theme-color' style='background-color:#555555'></div></div><div class='theme-item-colors display-none' id='maganda-theme-item'><div class='theme-color' style='background-color:#f97388;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#fcdc8c;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#fae462;'></div><div class='theme-color' style='background-color:#555555'></div></div><div class='theme-item-colors display-none' id='masikap-theme-item'><div class='theme-color' style='background-color:#ef4233;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#fcdc8c;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#fbf6cc;'></div><div class='theme-color' style='background-color:#555555'></div></div><div class='theme-item-colors display-none' id='matino-theme-item'><div class='theme-color' style='background-color:#8454b2;'></div><div class='theme-color' style='background-color:#555555;'></div><div class='theme-color' style='background-color:#efe1a5;'></div><div class='theme-color' style='background-color:#eed55f;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#efe1a5;'></div><div class='theme-color' style='background-color:#f0e8c7'></div></div><div class='theme-item-colors display-none' id='matalino-theme-item'><div class='theme-color' style='background-color:#f8d444;'></div><div class='theme-color' style='background-color:#444444;'></div><div class='theme-color' style='background-color:#555555;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#50aad5;'></div><div class='theme-color' style='background-color:#8ac4e4;'></div></div><div class='theme-item-colors display-none' id='maamo-theme-item'><div class='theme-color' style='background-color:#ebab9e;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#445c74;'></div><div class='theme-color' style='background-color:#ffffff;'></div><div class='theme-color' style='background-color:#808080;'></div><div class='theme-color' style='background-color:#dbdbdb;'></div><div class='theme-color' style='background-color:#3c506c;'></div><div class='theme-color' style='background-color:#929cac;'></div></div><div class='theme-item-colors display-none' id='mabait-theme-item'><div class='p-5-px'>Coming Soon!</div></div><div class='theme-item-colors display-none' id='mabunga-theme-item'><div class='p-5-px'>Coming Soon!</div></div></div>
+
+
+<div class='input-group'>
+    <label for="custom_css">Custom CSS</label>
+    <div class="input-group" id="custom_css">
+        <textarea name='custom_css' class='form-control w100pct h315px'></textarea>
+    </div>
+</div>
+</div>
+<div class='tab-pane' id='posts'>
+    <!-- space_between_images -->
+    <div class="input-group">
+        <label for="space_between_images">Space Between Posts</label>
+        <div class="input-group" id="space_between_images">
+            <input type="number" name="space_between_images" value="5" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- post_count / number of posts shown by default -->
+    <div class="input-group w-100-pct">
+        <label for="post_count">Default Posts Count</label>
+        <div id="post_count">
+            <select name="post_count" class="form-control" required>
+                <option value='1' >1</option><option value='2' >2</option><option value='3' >3</option><option value='4' >4</option><option value='5' >5</option><option value='6' >6</option><option value='7' >7</option><option value='8' >8</option><option value='9' >9</option><option value='10' >10</option><option value='11' >11</option><option value='12' >12</option><option value='13' >13</option><option value='14' >14</option><option value='15' selected>15</option><option value='16' >16</option>            </select>
+        </div>
+    </div>
+
+    <!-- column_count -->
+    <div class="input-group">
+        <label for="column_count">Column Count</label>
+        <div class="input-group" id="column_count">
+            <input type="number" name="column_count" value="3" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- exclude_users -->
+    <div class="input-group" title="Exclude all posts of a user by entering their Instagram user ID. Enter comma-separated usernames for excluding multiple IG user ID." data-toggle="tooltip" data-placement="right">
+        <label for="space_between_images">
+            Excluded users
+            <small><a href="https://www.sociablekit.com/block-user-instagram-hashtag-feed/" target="_blank">What's this?</a></small>
+        </label>
+        <div class="input-group" id="exclude_users">
+            <textarea name="exclude_users" class="form-control h100px"></textarea>
+        </div>
+    </div>
+
+    <!-- excluded_posts -->
+    <div class="input-group" title="Exclude a post by entering its Instagram post ID. Enter comma-separated post IDs for excluding multiple IG posts." data-toggle="tooltip" data-placement="right">
+        <label for="excluded_posts">
+            Excluded Posts
+            <small><a href="https://www.sociablekit.com/how-to-remove-a-post-on-my-instagram-hashtag-feed/" target="_blank">What's this?</a></small>
+        </label>
+        <div class="input-group" id="excluded_posts">
+            <textarea name="excluded_posts" class="form-control h100px"></textarea>
+        </div>
+    </div>
+
+    <div class='input-group'><label><span class='f-l'><input type='checkbox' name='show_hashtag_text' value='1' checked autocomplete='off' /> </span><span class='mleft8px'>Show #hashtag text</span></label></div><div class='input-group' title='If checked, DSM will show posts with most likes and comments first. If unchecked, DSM will show most recent posts. Un-check if you want to display unique posts.' data-toggle='tooltip' data-placement='right'><label><span class='f-l'><input type='checkbox' name='show_top_posts' value='1'  autocomplete='off' /> </span><span class='mleft8px'>Show top posts</span></label></div><div class='input-group'><label><span class='f-l'><input type='checkbox' name='show_post_hover' value='1' checked autocomplete='off' /> </span><span class='mleft8px'>Show post hover</span></label></div><div class='input-group'><label><span class='f-l'><input type='checkbox' name='show_content_space' value='1' checked autocomplete='off' /> </span><span class='mleft8px'>Show content space</span></label></div><div class='input-group' title='Check this option if you are using an iframe.' data-toggle='tooltip' data-placement='right'><label><span class='f-l'><input type='checkbox' name='show_pop_up_on_middle' value='1' checked autocomplete='off' /> </span><span class='mleft8px'>Show pop up on middle</span></label></div></div>
+<div class='tab-pane' id='colors'>
+    <!-- item_bg_color -->
+    <div class="input-group">
+        <label for="details_bg_color">Background Color</label>
+        <div class="input-group color-pick" id="details_bg_color">
+            <input type="text" name="details_bg_color" value="#ffffff" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+
+    <!-- image_background -->
+    <div class="input-group display-none">
+        <label for="image_background">Image Background</label>
+        <div class="input-group" id="image_background">
+            <input type="file" name="image_background" class="form-control" />
+        </div>
+    </div>
+
+    <!-- details_font_color -->
+    <div class="input-group">
+        <label for="details_font_color">Font Color</label>
+        <div class="input-group color-pick" id="details_font_color">
+            <input type="text" name="details_font_color" value="#555555" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+
+    <!-- details_link_color -->
+    <div class="input-group">
+        <label for="details_link_color">Link Color</label>
+        <div class="input-group color-pick" id="details_link_color">
+            <input type="text" name="details_link_color" value="#3480dc" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+
+    <!-- details_link_hover_color -->
+    <div class="input-group">
+        <label for="details_link_hover_color">Link Hover Color</label>
+        <div class="input-group color-pick" id="details_link_hover_color">
+            <input type="text" name="details_link_hover_color" value="#a2bec4" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+</div>
+<div class='tab-pane' id='fonts'>
+
+    <!-- font_family -->
+<div class="input-group" data-toggle="tooltip" title="If you choose 'Font family of my website', you will not see your website's font in the preview. You will see it when you view your website with the plugin. It works with JavaScript embed code only." data-placement="right">
+        <label for="font_family">Font Family</label>
+    <select name="font_family" class="form-control" id="font_family">
+        <option value="inherit" >Font family of my website</option>
+        <option value="Impact, Charcoal, sans-serif" >Impact</option>
+        <option value="'Palatino Linotype', 'Book Antiqua', Palatino, serif" >Palatino Linotype</option>
+        <option value="Century Gothic, sans-serif" selected>Century Gothic</option>
+        <option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif" >Lucida Sans Unicode</option>
+        <option value="Verdana, Geneva, sans-serif" >Verdana</option>
+        <option value="Copperplate, 'Copperplate Gothic Light', fantasy" >Copperplate Gothic Light</option>
+        <option value="'Courier New', Courier, monospace" >Courier New</option>
+        <option value="Georgia, Serif" >Georgia</option>
+    </select>
+</div>
+
+    <!-- title_font_size -->
+    <div class="input-group">
+        <label for="title_font_size">Tag Title Font Size</label>
+        <div class="input-group" id="title_font_size">
+            <input type="number" name="title_font_size" value="25" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- title_line_height -->
+    <div class="input-group" data-toggle="tooltip" title="Control the space on the top and bottom of hashtag title." data-placement="right">
+        <label for="title_line_height">Tag Title Line Height</label>
+        <div class="input-group" id="title_line_height">
+            <input type="number" name="title_line_height" value="55" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- title_all_caps -->
+    <div class="input-group">
+        <label>
+                        <input type="checkbox" name="title_all_caps" value="1"  autocomplete="off" /> Uppercase Tag Title
+        </label>
+    </div>
+
+</div>
+<div class='tab-pane' id='texts'>
+
+    <!-- view_on_instagram_text -->
+    <div class="input-group" data-toggle="tooltip" title="Change 'View on Instagram' text." data-placement="right">
+        <label for="view_on_instagram_text" class="f-s-12px">View on Instagram</label>
+        <div class="input-group" id="view_on_instagram_text">
+            <input type="text" name="view_on_instagram_text" value="View on Instagram" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- load_more_posts_text -->
+    <div class="input-group" data-toggle="tooltip" title="Change 'Load more posts' text." data-placement="right">
+        <label for="load_more_posts_text">Load More Posts</label>
+        <div class="input-group" id="load_more_posts_text">
+            <input type="text" name="load_more_posts_text" value="Load more posts" class="form-control" required />
+        </div>
+    </div>
+
+    <!-- end_of_posts_text -->
+    <div class="input-group" data-toggle="tooltip" title="Change 'End of posts' text." data-placement="right">
+        <label for="end_of_posts_text">End of posts</label>
+        <div class="input-group" id="end_of_posts_text">
+            <input type="text" name="end_of_posts_text" value="End of posts." class="form-control" required />
+        </div>
+    </div>
+
+</div>
+<div class='tab-pane' id='buttons'>
+
+    <!-- button_bg_color -->
+    <div class="input-group">
+        <label for="button_bg_color">Button Background Color</label>
+        <div class="input-group color-pick" id="button_bg_color">
+            <input type="text" name="button_bg_color" value="#435b77" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+
+    <!-- button_text_color -->
+    <div class="input-group">
+        <label for="button_text_color">Button Text Color</label>
+        <div class="input-group color-pick" id="button_text_color">
+            <input type="text" name="button_text_color" value="#ffffff" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+
+    <!-- button_hover_bg_color -->
+    <div class="input-group">
+        <label for="button_hover_bg_color">Button Hover BG Color</label>
+        <div class="input-group color-pick" id="button_hover_bg_color">
+            <input type="text" name="button_hover_bg_color" value="#3480dc" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+
+    <!-- button_hover_text_color -->
+    <div class="input-group">
+        <label for="button_hover_text_color">Button Hover Text Color</label>
+        <div class="input-group color-pick" id="button_hover_text_color">
+            <input type="text" name="button_hover_text_color" value="#ffffff" class="form-control" required />
+            <span class="input-group-addon"><i></i></span>
+        </div>
+    </div>
+
+    <div class='input-group'><label><span class='f-l'><input type='checkbox' name='show_load_more_button' value='1' checked autocomplete='off' /> </span><span class='mleft8px'>Show "Load More" Button</span></label></div></div>
+</div><input type='hidden' name='embed_id' value='10792' /><button type='submit' class='btn btn-primary w-100-pct' id='btn-save-changes'><i class='fa fa-pencil-square'></i> Save Changes</button><a href='https://www.sociablekit.com/app/' class='btn btn-danger m-t-10px w-100-pct'><i class='fa fa-ban' aria-hidden='true'></i> Cancel</a></form></div></div></div><div class='col-md-8'><row><div class='col-md-12 margin-bottom-1em sk_live_preview_title'><div class='pull-left'><strong>PREVIEW</strong> - Click 'Save Changes' button to see your changes.</div><a href='https://www.sociablekit.com/app/embed/index.php?embed_id=10792' class='btn btn-info pull-right m-r-8px' target='_blank' data-toggle='tooltip' title="Full Page Preview" data-placement='top'><i class='fa fa-eye'></i></a><!-- Trigger the modal with a button --><div class='get-code-container' data-toggle='tooltip' title="Get Embed Code" data-placement='top'><button type='button' class='btn btn-primary pull-right m-r-8px' data-toggle='modal' data-target='#myModal'><i class='fa fa-code'></i> Embed On Website</button></div><div class='get-code-container' data-toggle='tooltip' title="Your custom feeds will stop showing after 7 days. Please upgrade now to continue using our services." data-placement='top'><a href='https://www.sociablekit.com/pricing/' target='_blank' class='btn btn-success pull-right m-r-8px'><i class='fa fa-bolt'></i> UPGRADE NOW</a></div></div><div class='col-md-12 sk_iframe_demo'><iframe id='live-preview' src='https://www.sociablekit.com/app/embed/index.php?embed_id=10792' frameborder='0' width='100%' height='1000'></iframe></div></row></div></div>
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Your Embed Code</h4>
+				</div>
+				<div class="modal-body">
+					<div class="input-group width-100-percent">
+						<p>
+						<label for="embed_code">
+							Copy the code below and paste it on your website.
+						</label>
+
+						<div style='overflow:hidden; display:block; width:100%; float:none;'>
+							<div class='get-code-tab get-code-tab-active' id='show-js-widget-code' data-toggle="tooltip" title="JavaScript widget works with Squarespace, Weebly, Shopify, WordPress, Jimdo, Mobirise, Voog, Drupal, Adobe Muse and many others." data-placement="top">JavaScript</div>
+							<div class='get-code-tab' id='show-timed-js-widget-code' data-toggle="tooltip" title="Timed JavaScript widget works with CMS like Duda." data-placement="top">Timed JS</div>
+							<div class='get-code-tab' id='show-iframe-code' data-toggle="tooltip" title="If, for some reason, JavaScript did not work, please contact us. Or, try to use this iFrame widget." data-placement="top">iFrame</div>
+							<div class='get-code-tab' id='show-link-code' data-toggle="tooltip" title="Use this if you are using Wix. On wix, click 'embed a site' and 'enter website address'." data-placement="top">Link</div>
+						</div>
+
+						<div class='input-group width-100-percent' id='js-widget-embed-code'><textarea id='textarea-get-js-widget' class='form-control width-100-percent embed-code margin-bottom-1em' style='height:8em; margin-bottom:8px;'><div class='sk-ww-instagram-hashtag-feed' data-embed-id='10792'></div><script src='https://www.sociablekit.com/app/embed/instagram-hashtag-feed/widget.js'></script></textarea><div class='copy_code_button'><button class='btn btn-primary js-widget-embed-code-btn'><i class='fa fa-clipboard'></i> Copy Code</button></div></div><div class='input-group width-100-percent display-none' id='timed-js-widget-embed-code'><textarea id='textarea-get-timed-js-widget' class='form-control width-100-percent embed-code margin-bottom-1em' style='height:8em; margin-bottom:8px;'><div class='sk-ww-instagram-hashtag-feed' data-embed-id='10792'></div><script>setTimeout(function(){ jQuery.getScript('https://www.sociablekit.com/app/embed/instagram-hashtag-feed/widget.js', function(data, textStatus, jqxhr) {}); }, 300);</script></textarea><div class='copy_code_button'><button class='btn btn-primary timed-js-widget-embed-code-btn'><i class='fa fa-clipboard'></i> Copy Code</button></div></div><div class='input-group width-100-percent display-none' id='iframe-embed-code'><textarea id='textarea-get-iframe-code' class='form-control width-100-percent embed-code margin-bottom-1em' style='height:8em; margin-bottom:8px;'><iframe src='https://www.sociablekit.com/app/embed/index.php?embed_id=10792' frameborder='0' width='100%' height='1000'></iframe></textarea><div class='copy_code_button'><button class='btn btn-primary embed-iframe-code-btn'><i class='fa fa-clipboard'></i> Copy Code</button></div></div><div class='input-group width-100-percent display-none' id='link-embed-code'><textarea id='textarea-get-link-code' class='form-control width-100-percent embed-code margin-bottom-1em' style='height:8em; margin-bottom:8px;'>https://www.sociablekit.com/app/embed/index.php?embed_id=10792</textarea><div class='copy_code_button'><button class='btn btn-primary link-embed-code-btn'><i class='fa fa-clipboard'></i> Copy Code</button></div></div>						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+<div class='container' style='margin:25px auto 20px auto;'>
+	<div class="row">
+		<div class="col-md-12">
+			<div class='text-align-center'>
+				<a href='https://www.sociablekit.com'>SociableKIT</a> &copy; 2014-2018 •
+				<a href='https://www.sociablekit.com/solutions/'>Solutions</a> •
+				<a href='https://www.sociablekit.com/about/'>About Us</a> •
+				<a href='https://www.sociablekit.com/blog/'>Blog</a>
+				<!-- <a href='https://www.sociablekit.com/app/affiliates'>Affiliates</a> -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- jQuery library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- jquery ui -->
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+<!-- bootstrap JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file: -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- color picker -->
+<script src="https://www.sociablekit.com/app/libs/js/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.min.js"></script>
+
+<!-- bootbox library -->
+<script src="https://www.sociablekit.com/app/libs/js/bootbox.min.js"></script>
+
+<!-- dsm themes -->
+<script src="https://www.sociablekit.com/app/libs/js/dsm.themes.js"></script>
+
+<!-- for google place feature -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3Zh3d_3dpG2k2RO7MPDzRlX-SPciNXeo&libraries=places" async defer></script>
+
+<!-- dsm main js -->
+<script>
+$(document).ready(function(){
+
+	// change content of get code text area
+	
+	if($(".last_synced").length){
+		showLastSynced();
+		window.setInterval(function(){
+			showLastSynced();
+		}, 5000);
+	}
+
+	function showLastSynced(){
+		$(".last_synced").each(function(index){
+			var last_synced = $(this);
+			var embed_id = last_synced.attr("data-embed-id");
+			var type = last_synced.attr("data-type");
+
+			$.get("https://www.sociablekit.com/app/stats/read_last_synced.php?embed_id=" + embed_id + "&type=" + type, function(data){
+				last_synced.text(data);
+			});
+		});
+	}
+
+	$(document).on('click', '#trigger_sync', function(){
+		console.log('trigger_sync');
+		$(".sk_sync_button").each(function() {
+			var fb_page_link=$(this).attr("href");
+			window.open(fb_page_link);
+		});
+		return false;
+	});
+
+	if($("#open_graph_api_explorer").length){
+		var fb_page_link=$("#open_graph_api_explorer").attr("href");
+		window.open(fb_page_link);
+	}
+
+	if($("#open_fb_page_video_single_json").length){
+		var fb_page_link=$("#open_fb_page_video_single_json").attr("href");
+		window.open(fb_page_link);
+	}
+
+	if($("#open_fb_page_videos_json").length){
+		var fb_page_link=$("#open_fb_page_videos_json").attr("href");
+		window.open(fb_page_link);
+	}
+
+	if($("#open_fb_page_bio").length){
+		var fb_page_link=$("#open_fb_page_bio").attr("href");
+		window.open(fb_page_link);
+	}
+
+	if($("#open_fb_event").length){
+		var fb_page_link=$("#open_fb_event").attr("href");
+		window.open(fb_page_link);
+	}
+
+	if($("#open_fb_page_events").length){
+		var fb_page_link=$("#open_fb_page_events").attr("href");
+		window.open(fb_page_link);
+	}
+
+	if($("#open_fb_page_reviews").length){
+		var fb_page_link=$("#open_fb_page_reviews").attr("href");
+		window.open(fb_page_link);
+	}
+
+	if($("#open_ig_feed").length){
+		var ig_link=$("#open_ig_feed").attr("href");
+		window.open(ig_link);
+
+		var ig_link=$("#open_ig_feed_json").attr("href");
+		window.open(ig_link);
+	}
+
+	$('#form_google_reviews_encode').submit(function(){
+		console.log("form_google_reviews_encode");
+		$('#response').html("<b>Loading response...</b>");
+		$.post('google_reviews_encode_receiver.php', $(this).serialize(), function(data){
+			$('#response').html(data);
+		}).fail(function() {
+			$('#response').html("Posting failed.");
+		});
+		return false;
+	});
+
+	$('#form_fb_page_video_single_encode').submit(function(){
+		$('#response').html("<b>Loading response...</b>");
+		$.post('facebook_page_video_single_encode_receiver.php', $(this).serialize(), function(data){
+			$('#response').html(data);
+		}).fail(function() {
+			$('#response').html("Posting failed.");
+		});
+		return false;
+	});
+
+	$('#form_update_access_token').submit(function(){
+		$('#btn_update_access_token').val("Updating...");
+		$.post('update_access_token.php', $(this).serialize(), function(data){
+			$('#btn_update_access_token').val("Updated!");
+		}).fail(function() {
+			alert("Unable to update access token. Posting failed.");
+		});
+		return false;
+	});
+
+	$('#form_fb_page_videos_encode').submit(function(){
+		$('#response').html("<b>Loading response...</b>");
+		$.post('facebook_page_videos_encode_receiver.php', $(this).serialize(), function(data){
+			$('#response').html(data);
+		}).fail(function() {
+			$('#response').html("Posting failed.");
+		});
+		return false;
+	});
+
+	$('#form_fb_page_event_encode').submit(function(){
+		$('#response').html("<b>Loading response...</b>");
+		$.post('facebook_page_event_single_encode_receiver.php', $(this).serialize(), function(data){
+			$('#response').html(data);
+		}).fail(function() {
+			$('#response').html("Posting failed.");
+		});
+		return false;
+	});
+
+	$('#form_ig_encode').submit(function(){
+
+		// show that something is loading
+		$('#response').html("<b>Loading response...</b>");
+
+		$.post('instagram_feed_encode_receiver.php', $(this).serialize(), function(data){
+			// show the response
+			$('#response').html(data);
+
+			var ig_link=$("#open_sk_feed").attr("href");
+			window.open(ig_link);
+
+		}).fail(function() {
+			// just in case posting your form failed
+			$('#response').html("Posting failed.");
+		});
+
+		// to prevent refreshing the whole page page
+		return false;
+
+	});
+
+	$('#form_fb_page_events_encode').submit(function(){
+
+		// show that something is loading
+		$('#response').html("<b>Loading response...</b>");
+
+		$.post('facebook_page_events_encode_receiver.php', $(this).serialize(), function(data){
+			// show the response
+			$('#response').html(data);
+		}).fail(function() {
+			// just in case posting your form failed
+			$('#response').html("Posting failed.");
+		});
+
+
+		// to prevent refreshing the whole page page
+		return false;
+
+	});
+
+	$('#form_fb_page_events_encode_recurring').submit(function(){
+
+		// show that something is loading
+		$('#response_recurring').html("<b>Loading response...</b>");
+
+		$.post('facebook_page_events_encode_recurring_receiver.php', $(this).serialize(), function(data){
+			// show the response
+			$('#response_recurring').html(data);
+		}).fail(function() {
+			// just in case posting your form failed
+			$('#response_recurring').html("Posting failed.");
+		});
+
+		// to prevent refreshing the whole page page
+		return false;
+
+	});
+
+	$('#form_fb_page_reviews_encode').submit(function(){
+
+		// show that something is loading
+		$('#response').html("<b>Loading response...</b>");
+
+		$.post('facebook_page_reviews_encode_receiver.php', $(this).serialize(), function(data){
+			// show the response
+			$('#response').html(data);
+		}).fail(function() {
+			// just in case posting your form failed
+			$('#response').html("Posting failed.");
+		});
+
+		// to prevent refreshing the whole page page
+		return false;
+
+	});
+
+	$(".dsm_datepicker").datepicker({ dateFormat: 'yy-mm-dd' });
+
+	// Javascript to enable link to tab
+	var url = document.location.toString();
+	if (url.match('#')) {
+	    $('.nav-tabs a[href="#' + url.split('#')[1] + '"]').tab('show');
+	}
+
+	// Change hash for page-reload
+	$('.nav-tabs a').on('shown.bs.tab', function (e) {
+	    window.location.hash = e.target.hash;
+		window.scrollTo(0, 0);
+	});
+
+	// =============== start stats ===============
+	if($("#year_report").length != 0) {
+
+		$("#month_report").load("month.php");
+		$("#year_report").load("year.php");
+		$("#embed_counts_report").load("embed_counts.php");
+		$("#day_report").load("day.php");
+
+		$(document).on('click', '.show_month', function(){
+			var month=$(this).attr('data-month');
+			var year=$(this).attr('data-year');
+			$("#month_report").load("month.php?year=" + year + "&month=" + month);
+		});
+
+		$(document).on('click', '.show_year', function(){
+			var year=$(this).attr('data-year');
+			$("#year_report").load("year.php?year=" + year);
+			return false;
+		});
+
+		$(document).on('click', '.calendar_day_report', function(){
+			var date=$(this).attr('data-date');
+			$("#day_report").load("day.php?date=" + date);
+			return false;
+		});
+	}
+
+	// =============== end stats ===============
+
+	// enable bootstrap tooltip
+	enable_tooltip();
+
+	$("#single_facebook_event").change(function(){
+		if(this.checked){
+			$("#input_group_fb_event_id").show();
+			$("#input_group_fb_page_id").hide();
+		}else{
+			$("#input_group_fb_event_id").hide();
+			$("#input_group_fb_page_id").show();
+		}
+	});
+
+	// try to get facebook page ID from URL
+	$(document).on('blur keypress', '#fb_page_id', function() {
+
+		var input_val = $(this).val();
+		input_val = input_val.replace("https://www.facebook.com/", "");
+		input_val = input_val.replace("/", "");
+		input_val = input_val.replace("@", "");
+		input_val = input_val.replace("#", "");
+		input_val = input_val.replace(" ", "");
+
+		$(this).val(input_val);
+	});
+
+	// remove hashtag in instagram & twitter hashtag feed
+	$(document).on('blur keypress', '#instagram_tag, #twitter_tag', function(){
+
+		var input_val = $(this).val();
+		input_val = input_val.replace("#", "");
+		input_val = input_val.replace(" ", "");
+
+		$(this).val(input_val);
+	});
+
+	// extract facebook album id
+	$(document).on('blur keypress', '#fb_album_id', function(){
+
+		var input_val = $(this).val();
+		input_val = input_val.split("&album_id=");
+		input_val = input_val.replace(" ", "");
+
+		var fb_album_id=input_val[1];
+		if(fb_album_id){
+			$(this).val(fb_album_id);
+		}
+	});
+
+	// extract facebook event id
+	$(document).on('blur keypress', '#fb_event_id', function(){
+
+		var input_val = $(this).val();
+		input_val = input_val.split("/events/");
+
+		var input_val=input_val[1];
+		input_val = input_val.split("/");
+
+		var fb_event_id=input_val[0];
+		fb_event_id = fb_event_id.replace(" ", "");
+
+		if(fb_event_id){
+			$(this).val(fb_event_id);
+		}
+	});
+
+	// remove @ sign in twitter username and instagram username
+	$(document).on('blur keypress', '#username, #twitter_username', function(){
+
+		var input_val = $(this).val();
+		input_val = input_val.replace("https://www.twitter.com/", "");
+		input_val = input_val.replace("https://www.instagram.com/", "");
+		input_val = input_val.replace("https://twitter.com/", "");
+		input_val = input_val.replace("https://instagram.com/", "");
+		input_val = input_val.replace("/", "");
+		input_val = input_val.replace("@", "");
+		input_val = input_val.replace(" ", "");
+
+		$(this).val(input_val);
+	});
+
+	$("#remove_all_tabs_checkbox").change(function() {
+		if(this.checked){
+			$("#three_checkboxes").hide();
+		}else{
+			$("#three_checkboxes").show();
+		}
+	});
+
+	$(document).on('change', '#affiliate_option', function(){
+		$('#affiliate_link').val($(this).val());
+	});
+
+	$(document).on('change', '#show_custom_feed', function(){
+		var custom_feed_type_id=$(this).val();
+		var show_url = "https://www.sociablekit.com/app/show_feed_by_type.php?id=" + custom_feed_type_id;
+		window.location = show_url;
+	});
+
+	$(document).on('change', '#type-pop-up', function(){
+
+		var selected_type=$(this).find("option:selected").attr('value');
+		var field_html="";
+
+		// twitter
+		if(selected_type==6){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-twitter-feed-on-website/');
+			field_html+="<div data-toggle='tooltip' ";
+				field_html+="title='Type your Twitter username without the @ sign. For example: Maroon5' ";
+				field_html+="data-placement='left'>";
+					field_html+="<label for='twitter_username'>";
+						field_html+="Twitter Username ";
+						field_html+="<small>";
+							field_html+="Without the @ sign. For example: nba";
+						field_html+="</small>";
+					field_html+="</label>";
+					field_html+="<input type='text' name='twitter_username' id='twitter_username' ";
+						field_html+="required placeholder='Type your twitter username here...' ";
+						field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+			field_html+="</div>";
+		}
+
+		// google plus
+		else if(selected_type==7){
+			field_html+="This feature is coming soon!";
+		}
+
+		// facebook photo album
+		else if(selected_type==8){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-facebook-page-photo-album-on-website/');
+			field_html+="<div data-toggle='tooltip' ";
+				field_html+="title=\"Please click the 'What's this?' link to learn how to get your Facebook album ID.\" ";
+				field_html+="data-placement='left'>";
+					field_html+="<label for='fb_album_id'>";
+						field_html+="Facebook Album ID ";
+						field_html+="<small>";
+							field_html+="<a href='https://www.sociablekit.com/get-find-facebook-album-id/' target='_blank'>What's this?</a>";
+						field_html+="</small>";
+					field_html+="</label>";
+					field_html+="<input type='text' name='fb_album_id' id='fb_album_id' ";
+						field_html+="required placeholder='Paste your Facebook album ID here...' ";
+						field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+			field_html+="</div>";
+		}
+
+		// instagram feed
+		else if(selected_type==5){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-instagram-feed-on-website/');
+			field_html+="<label for='access_token'>";
+				field_html+="Username ";
+				field_html+="<small>";
+					field_html+="Instagram username without the @ sign.";
+				field_html+="</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='username' id='username' ";
+				field_html+="required placeholder='Type  your Instagram username here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// facebook event - single
+		else if(selected_type==10){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-facebook-page-event-on-website/');
+			field_html+="<div data-toggle='tooltip' ";
+				field_html+="title=\"Please click the 'What's this?' link to learn how to get your Facebook event ID.\" ";
+				field_html+="data-placement='left'>";
+					field_html+="<label for='fb_event_id'>";
+						field_html+="Facebook Event ID ";
+						field_html+="<small>";
+							field_html+="<a href='https://www.sociablekit.com/get-find-facebook-event-id/' target='_blank'>What's this?</a>";
+						field_html+="</small>";
+					field_html+="</label>";
+					field_html+="<input type='text' name='fb_event_id' id='fb_event_id' ";
+						field_html+="required placeholder='Paste your Facebook event ID here...' ";
+						field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+			field_html+="</div>";
+		}
+
+		// facebook page reviews
+		else if(selected_type==11){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-facebook-page-reviews-on-website/');
+			field_html+="<div data-toggle='tooltip' ";
+				field_html+="title='Facebook page must be public and without restriction.' ";
+				field_html+="data-placement='left'>";
+					field_html+="<label for='fb_page_id'>";
+						field_html+="Facebook Page ID ";
+						field_html+="<small>";
+							field_html+="<a href='https://www.sociablekit.com/get-find-facebook-page-id/' target='_blank'>How to find my Facebook Page ID?</a>";
+						field_html+="</small>";
+					field_html+="</label>";
+					field_html+="<input type='text' name='fb_page_id' id='fb_page_id' ";
+						field_html+="required placeholder='Type your Facebook page ID here...' ";
+						field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+			field_html+="</div>";
+
+		}
+
+		// facebook group events
+		else if(selected_type==12){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/display-show-embed-facebook-group-events-on-website/');
+			field_html+="<label for='fb_group_id'>";
+				field_html+="Facebook Group ID ";
+				field_html+="<small>";
+					field_html+="<a href='https://www.sociablekit.com/get-find-facebook-group-id/' target='_blank'>How to find Facebook Group ID?</a>";
+				field_html+="</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='fb_group_id' id='fb_group_id' ";
+				field_html+="required placeholder='Paste your Facebook Group ID here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+
+			field_html+="<label for='fb_group_id'>";
+				field_html+="Facebook Access Token ";
+				field_html+="<small>";
+					field_html+="<a href='https://www.sociablekit.com/get-facebook-long-lived-user-access-token/' target='_blank'>How to get this?</a>";
+				field_html+="</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='access_token' id='access_token' ";
+				field_html+="required placeholder='Paste your Facebook long-lived user access token here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// instagram hashtag feed
+		else if(selected_type==13){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-instagram-hashtag-feed-on-website/');
+			field_html+="<div data-toggle='tooltip' ";
+				field_html+="title='Enter an Instagram tag (whithout #)' ";
+				field_html+="data-placement='left'>";
+					field_html+="<label for='instagram_tag'>";
+						field_html+="Instagram Tag <small>Example: ninja</small>";
+					field_html+="</label>";
+					field_html+="<input type='text' name='instagram_tag' id='instagram_tag' ";
+						field_html+="required placeholder='Type your Instagram tag here...' ";
+						field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+			field_html+="</div>";
+		}
+
+		// instagram feed - private
+		else if(selected_type==14){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-private-instagram-feed-on-website/');
+			field_html+="<label for='access_token'>";
+				field_html+="Access Token <small>Get your Instagram <a href='http://instagram.pixelunion.net/' target='_blank'>access token here</a>.</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='access_token' id='access_token' ";
+				field_html+="required placeholder='Paste your access token here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// youtube channel videos
+		else if(selected_type==15){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-youtube-channel-on-website/');
+
+			field_html+="<div class='mb10px'>";
+				field_html+="<label for='use_youtube_channel_id'>";
+					field_html+="<input type='checkbox' name='use_youtube_channel_id' id='use_youtube_channel_id' value='1' /> Use YouTube Channel ID";
+				field_html+="</label>";
+			field_html+="</div>";
+
+			field_html+="<label for='username' id='username_label'>";
+				field_html+="YouTube Custom Name <small><a href='https://www.sociablekit.com/find-youtube-channel-custom-name/' target='_blank'>What's this?</a></small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='username' id='username' ";
+				field_html+="required placeholder='Type YouTube custom name here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// youtube playlist videos
+		else if(selected_type==16){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-youtube-playlist-on-website/');
+			field_html+="<label for='playlist_id'>";
+				field_html+="YouTube Playlist ID ";
+				field_html+="<small>";
+					field_html+="<a href='https://www.sociablekit.com/find-youtube-playlist-id/' target='_blank'>";
+						field_html+="How to find YouTube playlist ID?";
+					field_html+="</a>";
+				field_html+="</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='playlist_id' id='playlist_id' ";
+				field_html+="required placeholder='Paste your YouTube playlist ID here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// twitter hashtag feed
+		else if(selected_type==17){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-twitter-hashtag-feed-on-website/');
+			field_html+="<label for='twitter_tag'>";
+				field_html+="Twitter Hashtag Feed ";
+				field_html+="<small>";
+					field_html+="Put twitter tag without the # sign.";
+				field_html+="</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='twitter_tag' id='twitter_tag' ";
+				field_html+="required placeholder='Type your Twitter tag here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// single facebook page video
+		else if(selected_type==18){
+			$('.read_related_tutorial').attr('href', 'https://www.sociablekit.com/embed-facebook-page-video-on-website/');
+			field_html+="<label for='fb_video_id'>";
+				field_html+="Facebook Page Video ID ";
+				field_html+="<small>";
+					field_html+="<a href='#' target='_blank'>What's this?</a>";
+				field_html+="</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='fb_video_id' id='fb_video_id' ";
+				field_html+="required placeholder='Paste Facebook page video ID here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// medium feed
+		else if(selected_type==20){
+			$('.read_related_tutorial').attr('href', '#');
+			field_html+="<label for='username'>";
+				field_html+="Publication ID ";
+				field_html+="<small>";
+					field_html+="<a href='#' target='_blank'>What's this?</a>";
+				field_html+="</small>";
+			field_html+="</label>";
+			field_html+="<input type='text' name='username' id='username' ";
+				field_html+="required placeholder='Paste Medium Publication ID here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+		}
+
+		// google reviews
+		else if(selected_type==22){
+			$('.read_related_tutorial').attr('href', '#');
+
+			field_html+="<label for='place_name'>";
+				field_html+="Search Google Place ";
+			field_html+="</label>";
+			field_html+="<input type='text' name='place_name' id='place_name' ";
+				field_html+="required placeholder='Search your Google place here...' ";
+				field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+
+			field_html+="<div>";
+				field_html+="<div id='map' style='width:100%; height:300px;'></div>";
+			field_html+="</div>";
+
+			field_html+="<input type='hidden' name='place_id' id='place_id' />";
+			field_html+="<input type='hidden' name='place_lat' id='place_lat' />";
+			field_html+="<input type='hidden' name='place_lng' id='place_lng' />";
+
+		}
+
+		// facebook events / timeline / videos / photo albums & photos
+		else{
+
+			var tutorial_link="";
+			if(selected_type==1){ // fb page events
+				tutorial_link="https://www.sociablekit.com/embed-facebook-page-events-on-website/";
+			}
+
+			else if(selected_type==4){ // fb page feed
+				tutorial_link="https://www.sociablekit.com/embed-facebook-page-feed-on-website/";
+			}
+
+			else if(selected_type==3){ // fb page videos
+				tutorial_link="https://www.sociablekit.com/embed-facebook-page-videos-on-website/";
+			}
+
+			else if(selected_type==19){ // fb live video
+				tutorial_link="https://www.sociablekit.com/embed-facebook-page-live-video-on-website/";
+			}
+
+			else if(selected_type==2){ // fb page photo albums
+				tutorial_link="https://www.sociablekit.com/embed-facebook-page-photo-albums-on-website/";
+			}
+
+			else if(selected_type==9){ // fb page events on google calendar
+				tutorial_link="https://www.sociablekit.com/sync-facebook-page-events-to-google-calendar/";
+			}
+
+			$('.read_related_tutorial').attr('href', tutorial_link);
+
+			field_html+="<div data-toggle='tooltip' ";
+				field_html+="title='Facebook page must be public and without restriction.' ";
+				field_html+="data-placement='left'>";
+					field_html+="<label for='fb_page_id'>";
+						field_html+="Facebook Page ID ";
+						field_html+="<small>";
+							field_html+="<a href='https://www.sociablekit.com/get-find-facebook-page-id/' target='_blank'>What's this?</a>";
+						field_html+="</small>";
+					field_html+="</label>";
+					field_html+="<input type='text' name='fb_page_id' id='fb_page_id' ";
+						field_html+="required placeholder='Type your Facebook page ID here...' ";
+						field_html+="class='form-control width-100-percent margin-bottom-1em' />";
+			field_html+="</div>";
+		}
+
+		$('#required_social_string_field').html(field_html);
+
+		if(selected_type==22){
+			initAutocomplete();
+		}
+
+		// enable bootstrap tooltip
+		enable_tooltip();
+
+	});
+
+	// Execute some code here
+	$.ajaxSetup({ cache: true });
+
+	$(document).on('change','#use_youtube_channel_id', function(){
+		if($(this).is(":checked")){
+			$('#username_label').html("<div>YouTube Channel ID</div> <div><a href='https://www.sociablekit.com/find-youtube-channel-id/' target='_blank'>What's this?</a></div>");
+			$('#username').attr('placeholder', 'Paste YouTube channel ID here...');
+		}else{
+			$('#username_label').html("<div>YouTube Custom Name</div> <div><a href='https://www.sociablekit.com/find-youtube-channel-custom-name/' target='_blank'>What's this?</a></div>");
+			$('#username').attr('placeholder', 'Type YouTube custom name here...');
+		}
+	});
+
+	$(document).on('click','#btn-import-fb-events',function(){
+		var facebook_page=$('#import-fb-page').val();
+		var go_to_url="https://www.sociablekit.com/app/tools/download_events_csv.php?facebook_page="+facebook_page;
+		window.location.href=go_to_url;
+	});
+
+	$('.color-pick').colorpicker();
+
+	$(document).on('click', '#iframe-width-100', function(){
+
+		if($(this).is(':checked')){
+			$('#iframe-width-input-group').hide();
+			$('#iframe_width input').val("100%");
+		}
+
+		else{
+			$('#iframe-width-input-group').show();
+			$('#iframe_width input').val(620);
+		}
+	});
+
+	// delete record
+	$(document).on('click', '.delete-object', function(){
+
+		// php file used for deletion
+		var delete_file = $(this).attr('delete-file');
+		var tr_parent = $(this).closest('.row_item');
+
+		var id = $(this).attr('delete-id');
+
+		bootbox.confirm({
+			message: "<h4>Are you sure?</h4>",
+			buttons: {
+				confirm: {
+					label: '<span class="glyphicon glyphicon-ok"></span> Yes',
+					className: 'btn-danger'
+				},
+				cancel: {
+					label: '<span class="glyphicon glyphicon-remove"></span> No',
+					className: 'btn-primary'
+				}
+			},
+			callback: function (result) {
+
+				if(result==true){
+					$.post(delete_file, {
+						object_id: id
+					}, function(data){
+						console.log(data);
+						if(data=="Object was deleted."){
+							tr_parent.hide();
+						}else{
+							alert(data);
+						}
+					}).fail(function(data) {
+						console.log(data);
+						alert('Failed to delete. Please contact admin.');
+					});
+				}
+			}
+		});
+
+		return false;
+	});
+
+	$(document).on('click', '#show-js-widget-code', function(){
+
+		// show or hide textbox
+		$('#js-widget-embed-code').show();
+		$('#iframe-embed-code').hide();
+		$('#link-embed-code').hide();
+		$('#timed-js-widget-embed-code').hide();
+
+		// highlight tab
+		$(this).addClass('get-code-tab-active');
+		$('#show-iframe-code').removeClass('get-code-tab-active');
+		$('#show-link-code').removeClass('get-code-tab-active');
+		$('#show-timed-js-widget-code').removeClass('get-code-tab-active');
+
+	});
+
+	$(document).on('click', '#show-timed-js-widget-code', function(){
+
+		// show or hide textbox
+		$('#timed-js-widget-embed-code').show();
+		$('#js-widget-embed-code').hide();
+		$('#iframe-embed-code').hide();
+		$('#link-embed-code').hide();
+
+		// highlight tab
+		$(this).addClass('get-code-tab-active');
+		$('#show-iframe-code').removeClass('get-code-tab-active');
+		$('#show-link-code').removeClass('get-code-tab-active');
+		$('#show-js-widget-code').removeClass('get-code-tab-active');
+
+	});
+
+	$(document).on('click', '#show-iframe-code', function(){
+		// show or hide textbox
+		$('#iframe-embed-code').show();
+		$('#js-widget-embed-code').hide();
+		$('#link-embed-code').hide();
+		$('#timed-js-widget-embed-code').hide();
+
+		// highlight tab
+		$(this).addClass('get-code-tab-active');
+		$('#show-js-widget-code').removeClass('get-code-tab-active');
+		$('#show-link-code').removeClass('get-code-tab-active');
+		$('#show-timed-js-widget-code').removeClass('get-code-tab-active');
+	});
+
+	$(document).on('click', '#show-link-code', function(){
+
+		// show or hide textbox
+		$('#link-embed-code').show();
+		$('#js-widget-embed-code').hide();
+		$('#iframe-embed-code').hide();
+		$('#timed-js-widget-embed-code').hide();
+
+		// highlight tab
+		$(this).addClass('get-code-tab-active');
+		$('#show-js-widget-code').removeClass('get-code-tab-active');
+		$('#show-iframe-code').removeClass('get-code-tab-active');
+		$('#show-timed-js-widget-code').removeClass('get-code-tab-active');
+
+	});
+
+	// updating customized facebook events
+	$('#custom-event-form').submit(function(){
+
+        $('#btn-save-changes').html("Saving...");
+		$('#btn-save-changes').attr("disabled", true);
+
+		var fd = new FormData();
+
+		var file_data = $('input[type="file"]')[0].files; // for multiple files
+		for(var i = 0;i<file_data.length;i++){
+			fd.append("file_"+i, file_data[i]);
+		}
+
+		var other_data = $(this).serializeArray();
+		$.each(other_data, function(key,input){
+			fd.append(input.name, input.value);
+		});
+
+        $.ajax({
+            type: 'POST',
+            url: 'update_embed_receiver.php',
+            data: fd,
+						processData: false,  // tell jQuery not to process the data
+						contentType: false  // tell jQuery not to set contentType
+        })
+        .done(function(data){
+			// back to normal btn state
+            $('#btn-save-changes').html("<i class='fa fa-pencil-square'></i> Save Changes");
+			$('#btn-save-changes').attr("disabled", false);
+
+			var iframe_width=$('#iframe_width input').val();
+			var iframe_height=$('#iframe_height input').val();
+
+			// change width and height of iframe
+			$( '#live-preview' ).attr('width', iframe_width);
+			$( '#live-preview' ).attr('height', iframe_height);
+
+			// change content of get code text area
+							// iframe
+				var textarea_get_code="<iframe src='https://www.sociablekit.com/app/embed/index.php?embed_id=10792' frameborder='0' width='" + iframe_width + "' height='" + iframe_height + "'></iframe>";
+				$('#textarea-get-code').val(textarea_get_code);
+			
+			// reload the iframe to show preview changes
+			$( '#live-preview' ).attr( 'src', function ( i, val ) { return val; });
+
+			// empty instagram access token
+			$('#dsm-input-ig-token').val("");
+
+			if(data!="Successfully updated."){
+				alert(data);
+				// console.log(data);
+			}
+        });
+
+        // to prevent refreshing the whole page page
+        return false;
+    });
+
+	// creating customized facebook events
+	$('#create-custom-event-form').submit(function(){
+
+		var sel_feed=$( "#sel1 option:selected" ).val();
+		console.log(sel_feed);
+
+		if(
+			sel_feed==3
+		){
+			alert('This feature is under construction. We will let you know via email once it is done.');
+		}
+
+		else{
+
+	        $('#btn-create-custom-fb-event').html("Saving...");
+			$('#btn-create-custom-fb-event').attr("disabled", true);
+
+	        $.ajax({
+	            type: 'POST',
+	            url: 'create_embed_receiver.php',
+	            data: $(this).serialize()
+	        })
+	        .done(function(data){
+				// back to normal btn state
+	            $('#btn-create-custom-fb-event').html("<i class='fa fa-chevron-right'></i> Proceed");
+				$('#btn-create-custom-fb-event').attr("disabled", false);
+
+				if(data=="Unable to create."){
+					alert(data);
+				}
+
+				else{
+					window.location.href = "https://www.sociablekit.com/app/update_embed.php?id=" + data;
+				}
+	        });
+		}
+
+        // to prevent refreshing the whole page page
+        return false;
+
+    });
+
+	// copy affiliate link
+	$(document).on('click', '.btn_copy_affiliate_link', function(){
+		var copy_button = $(this);
+		var copy_input = document.querySelector('#affiliate_link');
+		copyInput(copy_button, copy_input);
+	});
+
+
+	$(document).on('click', '.js-widget-embed-code-btn', function(){
+		var copy_button = $(this);
+		var copy_input = document.querySelector('#textarea-get-js-widget');
+		copyInput(copy_button, copy_input);
+	});
+
+	$(document).on('click', '.timed-js-widget-embed-code-btn', function(){
+		var copy_button = $(this);
+		var copy_input = document.querySelector('#textarea-get-timed-js-widget');
+		copyInput(copy_button, copy_input);
+	});
+
+	$(document).on('click', '.embed-iframe-code-btn', function(){
+		var copy_button = $(this);
+		var copy_input = document.querySelector('#textarea-get-iframe-code');
+		copyInput(copy_button, copy_input);
+	});
+
+	$(document).on('click', '.link-embed-code-btn', function(){
+		var copy_button = $(this);
+		var copy_input = document.querySelector('#textarea-get-link-code');
+		copyInput(copy_button, copy_input);
+	});
+
+	$(document).on('click', '.btn-copy-google-cal-url', function(){
+		var copy_button = $(this);
+		var copy_input = document.querySelector('.textarea-copy-google-cal-url');
+		copyInput(copy_button, copy_input);
+	});
+
+	$(document).on('click', '.copy_dsm_key_btn', function(){
+		var copy_button = $(this);
+		var copy_input = document.querySelector('.dsm_key_textarea');
+		copyInput(copy_button, copy_input);
+	});
+
+});
+
+// copy function
+function copyInput(copy_button, copy_input){
+
+	// orig button label
+	var copy_button_orig_html=copy_button.html();
+
+	// select contents
+	copy_input.select();
+
+	try {
+
+		// copy content
+		var successful = document.execCommand('copy');
+		var msg = successful ? 'successful' : 'unsuccessful';
+
+		if(msg=='successful'){
+
+			// change button html
+			copy_button.html("<i class='fa fa-clipboard'></i> Copied!");
+
+			// button go back to orig html
+			setTimeout(function(){
+				copy_button.html(copy_button_orig_html);
+			}, 3000);
+
+		}
+
+		else{ alert('Copying text command was ' + msg + '.'); }
+	}
+
+	catch (err) { alert('Oops, unable to copy.'); }
+}
+
+function enable_tooltip(){
+	$('[data-toggle="tooltip"]').tooltip({ "trigger" : "hover" });
+}
+
+function initAutocomplete() {
+	var map = new google.maps.Map(document.getElementById('map'), {
+		center: {lat: -33.8688, lng: 151.2195},
+		zoom: 13,
+		mapTypeId: 'roadmap'
+	});
+
+	// Create the search box and link it to the UI element.
+	var input = document.getElementById('place_name');
+	var searchBox = new google.maps.places.SearchBox(input);
+	// map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+	// Bias the SearchBox results towards current map's viewport.
+	map.addListener('bounds_changed', function() {
+		searchBox.setBounds(map.getBounds());
+	});
+
+	var markers = [];
+	// Listen for the event fired when the user selects a prediction and retrieve
+	// more details for that place.
+	searchBox.addListener('places_changed', function() {
+
+		var places = searchBox.getPlaces();
+
+		if (places.length == 0) {
+		return;
+		}
+
+		// Clear out the old markers.
+		markers.forEach(function(marker) {
+			marker.setMap(null);
+		});
+		markers = [];
+
+		// For each place, get the icon, name and location.
+		var bounds = new google.maps.LatLngBounds();
+		places.forEach(function(place) {
+			if (!place.geometry) {
+				console.log("Returned place contains no geometry");
+				return;
+			}
+			var icon = {
+				url: place.icon,
+				size: new google.maps.Size(71, 71),
+				origin: new google.maps.Point(0, 0),
+				anchor: new google.maps.Point(17, 34),
+				scaledSize: new google.maps.Size(25, 25)
+			};
+
+			// Create a marker for each place.
+			var marker = new google.maps.Marker({
+				map: map,
+				title: place.name,
+				position: place.geometry.location
+			});
+			markers.push(marker);
+
+			var lat = marker.getPosition().lat();
+			var lng = marker.getPosition().lng();
+
+			if (place.geometry.viewport) {
+				// Only geocodes have viewport.
+				bounds.union(place.geometry.viewport);
+			} else {
+				bounds.extend(place.geometry.location);
+			}
+
+			$("#place_id").val(place.place_id);
+			$("#place_lat").val(lat);
+			$("#place_lng").val(lng);
+
+			// get coordinates basd on place ID
+		});
+
+		map.fitBounds(bounds);
+	});
+}
+
+function init_map(lat, lng, place_name) {
+    var myOptions = {
+        zoom: 14,
+        center: new google.maps.LatLng(lat, lng),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById("map"), myOptions);
+    marker = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(lat, lng)
+    });
+
+
+    infowindow = new google.maps.InfoWindow({
+        content: place_name
+    });
+
+    google.maps.event.addListener(marker, "click", function () {
+        infowindow.open(map, marker);
+    });
+    // infowindow.open(map, marker);
+
+}
+
+</script>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5a5de2a8d7591465c706caff/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!-- Hotjar Tracking Code for https://www.sociablekit.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:792213,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<script>
+window.setInterval(function(){
+	$("._hj-f5b2a1eb-9b07_widget ._hj-f5b2a1eb-9b07_widget_footer ._hj-f5b2a1eb-9b07_pull_left").hide();
+}, 1000);
+</script>
+
+
+</body>
+</html>
