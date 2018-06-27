@@ -1,0 +1,12 @@
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\bin\Debug\netcoreapp2.0\RunningWithScissors.dll.config
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\bin\Debug\netcoreapp2.0\RunningWithScissors.deps.json
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\bin\Debug\netcoreapp2.0\RunningWithScissors.runtimeconfig.json
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\bin\Debug\netcoreapp2.0\RunningWithScissors.runtimeconfig.dev.json
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\bin\Debug\netcoreapp2.0\RunningWithScissors.dll
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\obj\Debug\netcoreapp2.0\RunningWithScissors.csprojAssemblyReference.cache
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\obj\Debug\netcoreapp2.0\RunningWithScissors.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\obj\Debug\netcoreapp2.0\RunningWithScissors.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\obj\Debug\netcoreapp2.0\RunningWithScissors.AssemblyInfo.cs
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\bin\Debug\netcoreapp2.0\RunningWithScissors.pdb
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\obj\Debug\netcoreapp2.0\RunningWithScissors.dll
+C:\Projects\empower\Day 16\Beta\RunningWithScissors\obj\Debug\netcoreapp2.0\RunningWithScissors.pdb

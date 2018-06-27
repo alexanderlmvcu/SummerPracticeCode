@@ -1,0 +1,17 @@
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\XUnitTestProject1.deps.json
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\XUnitTestProject1.runtimeconfig.json
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\XUnitTestProject1.runtimeconfig.dev.json
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\XUnitTestProject1.dll
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\XUnitTestProject1.pdb
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\ClassLibrary1.dll
+C:\Projects\empower\Day 15\XUnitTestProject1\bin\Debug\netcoreapp2.0\ClassLibrary1.pdb
+C:\Projects\empower\Day 15\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.csprojAssemblyReference.cache
+C:\Projects\empower\Day 15\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 15\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 15\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.AssemblyInfo.cs
+C:\Projects\empower\Day 15\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.csproj.CopyComplete
+C:\Projects\empower\Day 15\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.dll
+C:\Projects\empower\Day 15\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.pdb

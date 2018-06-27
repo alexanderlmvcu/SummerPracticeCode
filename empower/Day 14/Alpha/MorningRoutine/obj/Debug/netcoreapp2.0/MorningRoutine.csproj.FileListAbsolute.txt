@@ -1,0 +1,11 @@
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\bin\Debug\netcoreapp2.0\MorningRoutine.deps.json
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\bin\Debug\netcoreapp2.0\MorningRoutine.runtimeconfig.json
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\bin\Debug\netcoreapp2.0\MorningRoutine.runtimeconfig.dev.json
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\bin\Debug\netcoreapp2.0\MorningRoutine.dll
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\bin\Debug\netcoreapp2.0\MorningRoutine.pdb
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\obj\Debug\netcoreapp2.0\MorningRoutine.csprojAssemblyReference.cache
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\obj\Debug\netcoreapp2.0\MorningRoutine.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\obj\Debug\netcoreapp2.0\MorningRoutine.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\obj\Debug\netcoreapp2.0\MorningRoutine.AssemblyInfo.cs
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\obj\Debug\netcoreapp2.0\MorningRoutine.dll
+C:\Projects\empower\Day 14\Alpha\MorningRoutine\obj\Debug\netcoreapp2.0\MorningRoutine.pdb

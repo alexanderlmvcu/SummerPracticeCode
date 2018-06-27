@@ -1,0 +1,11 @@
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.deps.json
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.runtimeconfig.json
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.runtimeconfig.dev.json
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.dll
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\bin\Debug\netcoreapp2.0\ConsoleApp3.pdb
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.csprojAssemblyReference.cache
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.AssemblyInfo.cs
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.dll
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3\obj\Debug\netcoreapp2.0\ConsoleApp3.pdb

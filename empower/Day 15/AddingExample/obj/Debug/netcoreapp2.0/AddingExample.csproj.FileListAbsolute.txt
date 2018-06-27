@@ -1,0 +1,11 @@
+C:\Projects\empower\Day 15\AddingExample\obj\Debug\netcoreapp2.0\AddingExample.csprojAssemblyReference.cache
+C:\Projects\empower\Day 15\AddingExample\obj\Debug\netcoreapp2.0\AddingExample.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 15\AddingExample\obj\Debug\netcoreapp2.0\AddingExample.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 15\AddingExample\obj\Debug\netcoreapp2.0\AddingExample.AssemblyInfo.cs
+C:\Projects\empower\Day 15\AddingExample\bin\Debug\netcoreapp2.0\AddingExample.deps.json
+C:\Projects\empower\Day 15\AddingExample\bin\Debug\netcoreapp2.0\AddingExample.runtimeconfig.json
+C:\Projects\empower\Day 15\AddingExample\bin\Debug\netcoreapp2.0\AddingExample.runtimeconfig.dev.json
+C:\Projects\empower\Day 15\AddingExample\bin\Debug\netcoreapp2.0\AddingExample.dll
+C:\Projects\empower\Day 15\AddingExample\bin\Debug\netcoreapp2.0\AddingExample.pdb
+C:\Projects\empower\Day 15\AddingExample\obj\Debug\netcoreapp2.0\AddingExample.dll
+C:\Projects\empower\Day 15\AddingExample\obj\Debug\netcoreapp2.0\AddingExample.pdb

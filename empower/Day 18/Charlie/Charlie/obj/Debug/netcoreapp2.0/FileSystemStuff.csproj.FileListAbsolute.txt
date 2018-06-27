@@ -1,0 +1,11 @@
+C:\Projects\empower\Day 18\Charlie\Charlie\bin\Debug\netcoreapp2.0\FileSystemStuff.deps.json
+C:\Projects\empower\Day 18\Charlie\Charlie\bin\Debug\netcoreapp2.0\FileSystemStuff.runtimeconfig.json
+C:\Projects\empower\Day 18\Charlie\Charlie\bin\Debug\netcoreapp2.0\FileSystemStuff.runtimeconfig.dev.json
+C:\Projects\empower\Day 18\Charlie\Charlie\bin\Debug\netcoreapp2.0\FileSystemStuff.dll
+C:\Projects\empower\Day 18\Charlie\Charlie\bin\Debug\netcoreapp2.0\FileSystemStuff.pdb
+C:\Projects\empower\Day 18\Charlie\Charlie\obj\Debug\netcoreapp2.0\FileSystemStuff.csprojAssemblyReference.cache
+C:\Projects\empower\Day 18\Charlie\Charlie\obj\Debug\netcoreapp2.0\FileSystemStuff.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 18\Charlie\Charlie\obj\Debug\netcoreapp2.0\FileSystemStuff.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 18\Charlie\Charlie\obj\Debug\netcoreapp2.0\FileSystemStuff.AssemblyInfo.cs
+C:\Projects\empower\Day 18\Charlie\Charlie\obj\Debug\netcoreapp2.0\FileSystemStuff.dll
+C:\Projects\empower\Day 18\Charlie\Charlie\obj\Debug\netcoreapp2.0\FileSystemStuff.pdb

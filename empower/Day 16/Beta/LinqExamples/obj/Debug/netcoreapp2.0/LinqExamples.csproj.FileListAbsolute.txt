@@ -1,0 +1,10 @@
+C:\Projects\empower\Day 16\Beta\LinqExamples\bin\Debug\netcoreapp2.0\LinqExamples.deps.json
+C:\Projects\empower\Day 16\Beta\LinqExamples\bin\Debug\netcoreapp2.0\LinqExamples.runtimeconfig.json
+C:\Projects\empower\Day 16\Beta\LinqExamples\bin\Debug\netcoreapp2.0\LinqExamples.runtimeconfig.dev.json
+C:\Projects\empower\Day 16\Beta\LinqExamples\bin\Debug\netcoreapp2.0\LinqExamples.dll
+C:\Projects\empower\Day 16\Beta\LinqExamples\bin\Debug\netcoreapp2.0\LinqExamples.pdb
+C:\Projects\empower\Day 16\Beta\LinqExamples\obj\Debug\netcoreapp2.0\LinqExamples.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 16\Beta\LinqExamples\obj\Debug\netcoreapp2.0\LinqExamples.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 16\Beta\LinqExamples\obj\Debug\netcoreapp2.0\LinqExamples.AssemblyInfo.cs
+C:\Projects\empower\Day 16\Beta\LinqExamples\obj\Debug\netcoreapp2.0\LinqExamples.dll
+C:\Projects\empower\Day 16\Beta\LinqExamples\obj\Debug\netcoreapp2.0\LinqExamples.pdb

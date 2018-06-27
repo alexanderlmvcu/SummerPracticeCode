@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Alpha": {
+      "commandName": "Project",
+      "commandLineArgs": "1 2 zebra 3 4 5 1008 6 "
+    }
+  }
+}

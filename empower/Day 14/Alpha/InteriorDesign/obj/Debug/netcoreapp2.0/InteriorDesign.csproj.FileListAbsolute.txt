@@ -1,0 +1,11 @@
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\bin\Debug\netcoreapp2.0\InteriorDesign.deps.json
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\bin\Debug\netcoreapp2.0\InteriorDesign.runtimeconfig.json
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\bin\Debug\netcoreapp2.0\InteriorDesign.runtimeconfig.dev.json
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\bin\Debug\netcoreapp2.0\InteriorDesign.dll
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\bin\Debug\netcoreapp2.0\InteriorDesign.pdb
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\obj\Debug\netcoreapp2.0\InteriorDesign.csprojAssemblyReference.cache
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\obj\Debug\netcoreapp2.0\InteriorDesign.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\obj\Debug\netcoreapp2.0\InteriorDesign.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\obj\Debug\netcoreapp2.0\InteriorDesign.AssemblyInfo.cs
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\obj\Debug\netcoreapp2.0\InteriorDesign.dll
+C:\Projects\empower\Day 14\Alpha\InteriorDesign\obj\Debug\netcoreapp2.0\InteriorDesign.pdb

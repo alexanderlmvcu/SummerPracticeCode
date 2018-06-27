@@ -1,0 +1,9 @@
+C:\Projects\empower\Day 14\Alpha\NameLibrary\bin\Debug\netcoreapp2.0\NameLibrary.deps.json
+C:\Projects\empower\Day 14\Alpha\NameLibrary\bin\Debug\netcoreapp2.0\NameLibrary.dll
+C:\Projects\empower\Day 14\Alpha\NameLibrary\bin\Debug\netcoreapp2.0\NameLibrary.pdb
+C:\Projects\empower\Day 14\Alpha\NameLibrary\obj\Debug\netcoreapp2.0\NameLibrary.csprojAssemblyReference.cache
+C:\Projects\empower\Day 14\Alpha\NameLibrary\obj\Debug\netcoreapp2.0\NameLibrary.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 14\Alpha\NameLibrary\obj\Debug\netcoreapp2.0\NameLibrary.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 14\Alpha\NameLibrary\obj\Debug\netcoreapp2.0\NameLibrary.AssemblyInfo.cs
+C:\Projects\empower\Day 14\Alpha\NameLibrary\obj\Debug\netcoreapp2.0\NameLibrary.dll
+C:\Projects\empower\Day 14\Alpha\NameLibrary\obj\Debug\netcoreapp2.0\NameLibrary.pdb

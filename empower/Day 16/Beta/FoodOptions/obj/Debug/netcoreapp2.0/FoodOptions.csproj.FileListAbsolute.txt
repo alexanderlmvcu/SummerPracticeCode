@@ -1,0 +1,10 @@
+C:\Projects\empower\Day 16\Beta\FoodOptions\bin\Debug\netcoreapp2.0\FoodOptions.deps.json
+C:\Projects\empower\Day 16\Beta\FoodOptions\bin\Debug\netcoreapp2.0\FoodOptions.runtimeconfig.json
+C:\Projects\empower\Day 16\Beta\FoodOptions\bin\Debug\netcoreapp2.0\FoodOptions.runtimeconfig.dev.json
+C:\Projects\empower\Day 16\Beta\FoodOptions\bin\Debug\netcoreapp2.0\FoodOptions.dll
+C:\Projects\empower\Day 16\Beta\FoodOptions\bin\Debug\netcoreapp2.0\FoodOptions.pdb
+C:\Projects\empower\Day 16\Beta\FoodOptions\obj\Debug\netcoreapp2.0\FoodOptions.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 16\Beta\FoodOptions\obj\Debug\netcoreapp2.0\FoodOptions.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 16\Beta\FoodOptions\obj\Debug\netcoreapp2.0\FoodOptions.AssemblyInfo.cs
+C:\Projects\empower\Day 16\Beta\FoodOptions\obj\Debug\netcoreapp2.0\FoodOptions.dll
+C:\Projects\empower\Day 16\Beta\FoodOptions\obj\Debug\netcoreapp2.0\FoodOptions.pdb

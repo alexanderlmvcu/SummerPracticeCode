@@ -1,0 +1,19 @@
+{
+  "name": "nsql",
+  "version": "1.0.0",
+  "description": "to test node if we can relate to relational db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderlmvcu/nsql.git"
+  },
+  "author": "Linda Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderlmvcu/nsql/issues"
+  },
+  "homepage": "https://github.com/alexanderlmvcu/nsql#readme"
+}

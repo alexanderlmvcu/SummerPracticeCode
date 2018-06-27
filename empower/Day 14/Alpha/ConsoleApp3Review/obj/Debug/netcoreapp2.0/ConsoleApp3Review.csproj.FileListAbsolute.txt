@@ -1,0 +1,11 @@
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\bin\Debug\netcoreapp2.0\ConsoleApp3Review.deps.json
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\bin\Debug\netcoreapp2.0\ConsoleApp3Review.runtimeconfig.json
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\bin\Debug\netcoreapp2.0\ConsoleApp3Review.runtimeconfig.dev.json
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\bin\Debug\netcoreapp2.0\ConsoleApp3Review.dll
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\bin\Debug\netcoreapp2.0\ConsoleApp3Review.pdb
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\obj\Debug\netcoreapp2.0\ConsoleApp3Review.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\obj\Debug\netcoreapp2.0\ConsoleApp3Review.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\obj\Debug\netcoreapp2.0\ConsoleApp3Review.AssemblyInfo.cs
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\obj\Debug\netcoreapp2.0\ConsoleApp3Review.dll
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\obj\Debug\netcoreapp2.0\ConsoleApp3Review.pdb
+C:\Projects\empower\Day 14\Alpha\ConsoleApp3Review\obj\Debug\netcoreapp2.0\ConsoleApp3Review.csprojAssemblyReference.cache

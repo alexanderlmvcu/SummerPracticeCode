@@ -1,0 +1,11 @@
+C:\Projects\empower\Day 15\AutoMobilesApp\bin\Debug\netcoreapp2.0\AutoMobilesApp.deps.json
+C:\Projects\empower\Day 15\AutoMobilesApp\bin\Debug\netcoreapp2.0\AutoMobilesApp.runtimeconfig.json
+C:\Projects\empower\Day 15\AutoMobilesApp\bin\Debug\netcoreapp2.0\AutoMobilesApp.runtimeconfig.dev.json
+C:\Projects\empower\Day 15\AutoMobilesApp\bin\Debug\netcoreapp2.0\AutoMobilesApp.dll
+C:\Projects\empower\Day 15\AutoMobilesApp\bin\Debug\netcoreapp2.0\AutoMobilesApp.pdb
+C:\Projects\empower\Day 15\AutoMobilesApp\obj\Debug\netcoreapp2.0\AutoMobilesApp.csprojAssemblyReference.cache
+C:\Projects\empower\Day 15\AutoMobilesApp\obj\Debug\netcoreapp2.0\AutoMobilesApp.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 15\AutoMobilesApp\obj\Debug\netcoreapp2.0\AutoMobilesApp.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 15\AutoMobilesApp\obj\Debug\netcoreapp2.0\AutoMobilesApp.AssemblyInfo.cs
+C:\Projects\empower\Day 15\AutoMobilesApp\obj\Debug\netcoreapp2.0\AutoMobilesApp.dll
+C:\Projects\empower\Day 15\AutoMobilesApp\obj\Debug\netcoreapp2.0\AutoMobilesApp.pdb

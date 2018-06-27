@@ -1,0 +1,4 @@
+C:\Projects\empower\Day 14\Alpha\Exercising\obj\Debug\netcoreapp2.0\Exercising.csprojAssemblyReference.cache
+C:\Projects\empower\Day 14\Alpha\Exercising\obj\Debug\netcoreapp2.0\Exercising.csproj.CoreCompileInputs.cache
+C:\Projects\empower\Day 14\Alpha\Exercising\obj\Debug\netcoreapp2.0\Exercising.AssemblyInfoInputs.cache
+C:\Projects\empower\Day 14\Alpha\Exercising\obj\Debug\netcoreapp2.0\Exercising.AssemblyInfo.cs
