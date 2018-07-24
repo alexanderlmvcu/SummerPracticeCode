@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedRemind.Domain", "MedRemind.Domain\MedRemind.Domain.csproj", "{D238083B-50CA-4883-92B0-3B98AD5EC57C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedRemind.NHibernate.Entities", "NHibernate.MedEntities\MedRemind.NHibernate.Entities.csproj", "{910BEE47-83F7-4D74-8463-0C0AAFCD0914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedRemind.NHibernate", "MedRemind.NHibernate\MedRemind.NHibernate.csproj", "{36D07934-D500-465A-A0A5-7863CA2109CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D238083B-50CA-4883-92B0-3B98AD5EC57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D238083B-50CA-4883-92B0-3B98AD5EC57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D238083B-50CA-4883-92B0-3B98AD5EC57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D238083B-50CA-4883-92B0-3B98AD5EC57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910BEE47-83F7-4D74-8463-0C0AAFCD0914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910BEE47-83F7-4D74-8463-0C0AAFCD0914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910BEE47-83F7-4D74-8463-0C0AAFCD0914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910BEE47-83F7-4D74-8463-0C0AAFCD0914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D07934-D500-465A-A0A5-7863CA2109CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D07934-D500-465A-A0A5-7863CA2109CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D07934-D500-465A-A0A5-7863CA2109CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D07934-D500-465A-A0A5-7863CA2109CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F756E42B-310B-4647-A9D2-C1192E065C71}
+	EndGlobalSection
+EndGlobal

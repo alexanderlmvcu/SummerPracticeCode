@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @potion.name %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @potion.year %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @potion.price %>
+</p>
+
+<%= link_to 'Edit', edit_potion_path(@potion) %> |
+<%= link_to 'Back', potions_path %>

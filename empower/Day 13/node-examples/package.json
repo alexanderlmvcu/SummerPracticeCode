@@ -1,0 +1,19 @@
+{
+  "name": "api-voting",
+  "version": "1.0.0",
+  "description": "Simple node and mongo app to accept user votes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexanderlmvcu/api-voting.git"
+  },
+  "author": "Linda Alexander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderlmvcu/api-voting/issues"
+  },
+  "homepage": "https://github.com/alexanderlmvcu/api-voting#readme"
+}
